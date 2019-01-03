@@ -1,0 +1,38 @@
+/*==============
+#17aef7
+#f3f3f3
+#d3d3d3
+================*/
+
+
+h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+h3::before{
+  position: absolute;
+  content: "";
+  bottom: 3px;
+  left: 30px;
+  width: 55px;
+  height: 5px;
+  background: #f3f3f3;
+  margin-left: -30px;
+}
+h3::after{
+  position: absolute;
+  content: "";
+  bottom: 3px;
+  left: 30px;
+  width: 39px;
+  height: 5px;
+  background: #17aef7;
+  margin-left: -29px;
+}
+h4{text-transform: uppercase;}
+p{width:30rem;}
+img{border-radius: 50%}
+.img-text{font-size: 1rem; width: 14rem;}
+small{color:#d3d3d3; font-size: 1rem;}
